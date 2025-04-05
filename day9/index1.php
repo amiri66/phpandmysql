@@ -30,6 +30,7 @@ $users = $getUsers->fetchAll();
     <table>
         <thead>
             <th>ID</th>
+            <th>Name</th>
             <th>Username</th>
             <th>Email</th>
         </thead>
