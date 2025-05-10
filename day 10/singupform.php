@@ -12,6 +12,7 @@
 
 <div class="container mt-5">
   <h2 class="mb-4">Sign Up</h2>
+  <form action="register.php" method="post">
   <form>
     <div class="mb-3">
       <label for="firstName" class="form-label">Name</label>
@@ -42,7 +43,7 @@
     </div>
 
 
-    <button type="submit" class="btn btn-primary">Sign Up</button>
+    <button type="submit" class="btn btn-primary" name="submit">Sign Up</button>
   </form>
   <p class="mt-3">Already have an account? <a href="index.php">Log in here</a></p>
 </div>
